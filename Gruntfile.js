@@ -13,7 +13,11 @@ module.exports = function (grunt) {
         src: 'public/css/main.css'
       }
     },
-    clean: ['public'],
+    clean: {
+      temp: ['.tmp'],
+      dist: ['public']
+    },
+
     copy: {
       main: {
         files: [
@@ -61,6 +65,20 @@ module.exports = function (grunt) {
         }
       }
     },
+
+    usemin: {
+      html: ['public/**/*.html']
+    },
+
+    useminPrepare: {
+      html: ['public/index.html'],
+
+      options: {
+        dest: 'public',
+        root: 'app'
+      }
+    },
+
     watch: {
       bower: {
         files: ['bower.json'],
