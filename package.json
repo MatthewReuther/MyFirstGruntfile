@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MatthewReuther/MyFirstGruntfile.git"
+    "url": "https://github.com/NSS-Cohort-8/MyFirstGruntfile.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Scott <scott@sscotth.io>",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MatthewReuther/MyFirstGruntfile/issues"
+    "url": "https://github.com/NSS-Cohort-8/MyFirstGruntfile/issues"
   },
-  "homepage": "https://github.com/MatthewReuther/MyFirstGruntfile",
+  "homepage": "https://github.com/NSS-Cohort-8/MyFirstGruntfile",
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-autoprefixer": "^2.2.0",
@@ -30,6 +30,7 @@
     "grunt-sass": "^0.18.0",
     "grunt-usemin": "^3.0.0",
     "grunt-wiredep": "^2.0.0",
-    "load-grunt-tasks": "^3.1.0"
+    "load-grunt-tasks": "^3.1.0",
+    "node-sass": "^3.0.0-alpha.0"
   }
 }
